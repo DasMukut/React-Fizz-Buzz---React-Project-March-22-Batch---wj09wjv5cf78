@@ -48,7 +48,7 @@ const App = () => {
   
   return (
     <div id="main">
-      <h1> hi all </h1>
+    
 
       <button
         id="increment" 
@@ -57,10 +57,10 @@ const App = () => {
         Increment
       </button>
 
-      <h1 className={getClass}>
+      <div id="counter" className={getClass}>
     
         {count} 
-      </h1>
+      </div>
 
       <button
         id="decrement" 
